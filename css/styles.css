@@ -33,7 +33,7 @@ body {
 .navbar {
     display: flex;
     justify-content: space-between;
-    padding: 1em;
+    padding: 1.5em;
     background-color: var(--color-grey);
     /* border: 2px solid red; */
 }
@@ -63,7 +63,9 @@ body {
 
 .hero-links a:hover {
     background-color: var(--color-red);
-    /* opacity: 0.75; */
+    font-size: 1.2rem;
+    font-weight: 900;
+    opacity: 0.75;
 }
 
 /* ---- Hero ---- */
@@ -102,6 +104,8 @@ body {
 .hero-container-left-btn:hover {
     opacity: 0.75;
     background-color: var(--color-red);
+    font-size: 1.5rem;
+    font-weight: 900;
 }
 
 .hero-container-right {
@@ -207,4 +211,30 @@ body {
 .third-container-btn a:hover {
     background-color: #fff;
     color: var(--color-light-blue);
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+
+/* ---- Footer ---- */
+
+.footer {
+    background-color: var(--color-grey);
+    padding: 4vh;
+    color: #fff;
+    text-align: center;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer a:hover {
+    background-color: #fff;
+    color: var(--color-grey);
+    border: 2px solid #fff;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    font-weight: 900;
+    padding: 0.5em
 }
